@@ -34,5 +34,7 @@ public class GameManager : MonoBehaviour
         Start,
         Start_
     }
-  
+
+    public List<IMission> Missions = new List<IMission>();
+    public List<IMission> CompletedMissions = new List<IMission>();
 }
