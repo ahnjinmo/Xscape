@@ -39,6 +39,11 @@ namespace HurricaneVR.TechDemo.Scripts
             Confetti.Play();
         }
 
+        public void PopKillConfetti()
+        {
+            Confetti.Stop();
+            Confetti.Play();
+        }
         private void Unstabbed(HVRStabber arg0, HVRStabbable arg1)
         {
         }
